@@ -1,0 +1,53 @@
+/* AnimalDetail.css */
+.animal-detail {
+  text-align: center;
+}
+
+.animal-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.animal-detail-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.animal-detail-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.animal-detail-image img {
+  max-width: 300px;
+  height: auto;
+}
+
+.animal-detail-info {
+  text-align: left;
+  max-width: 400px;
+}
+
+.animal-detail-info button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
+.animal-detail-info button:hover {
+  background-color: #0056b3;
+}

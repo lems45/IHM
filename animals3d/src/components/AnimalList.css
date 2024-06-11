@@ -1,0 +1,28 @@
+.animal-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 20px;
+  }
+  
+  .animal-item {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s;
+  }
+  
+  .animal-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .animal-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
